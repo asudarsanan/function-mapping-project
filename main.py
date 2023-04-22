@@ -4,7 +4,7 @@ import pandas as pd
 import sys
 
 from function_model_worker import CoreFunction
-from mapping_best_functions import writeToSqlite
+from mapping_worker import writeToSqlite
 from calculations_worker import minimiseLoss, findClassification, errorSquared
 from visualisation_worker import plotIdealFunctions, createPlottingPointBasedOnIdealFunction
 
@@ -28,7 +28,8 @@ class MappingSQLWriteException(Exception):
 if __name__ == '__main__':
     # Configure logging
     logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
+    #INFO level logs can be enabled, when needed.
+    logger.setLevel(logging.ERROR)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     file_handler = logging.FileHandler('log.txt')
     file_handler.setFormatter(formatter)

@@ -1,269 +1,334 @@
-INFO:root:Reading CSV files...
-INFO:root:Converting CSV files to SQLite...
-INFO:root:Finding ideal function for train function: This is Function for y1
-INFO:root:Finding ideal function for train function: This is Function for y2
-INFO:root:Finding ideal function for train function: This is Function for y3
-INFO:root:Finding ideal function for train function: This is Function for y4
-INFO:root:Plotting ideal functions...
-INFO:root:Plotting test dataset points...
-INFO:root:Plotting test dataset against ideal functions...
-INFO:root:Writing mapping to SQLite...
-INFO:root:Reading CSV files...
-INFO:root:Converting CSV files to SQLite...
-INFO:root:Finding ideal function for train function: This is Function for y1
-INFO:root:Finding ideal function for train function: This is Function for y2
-INFO:root:Finding ideal function for train function: This is Function for y3
-INFO:root:Finding ideal function for train function: This is Function for y4
-INFO:root:Plotting ideal functions...
-INFO:root:Plotting test dataset points...
-INFO:root:Plotting test dataset against ideal functions...
-INFO:root:Writing mapping to SQLite...
-INFO:root:Reading CSV files...
-INFO:root:Converting CSV files to SQLite...
-INFO:root:Finding ideal function for train function: This is Function for y1
-INFO:root:Finding ideal function for train function: This is Function for y2
-INFO:root:Finding ideal function for train function: This is Function for y3
-INFO:root:Finding ideal function for train function: This is Function for y4
-INFO:root:Plotting ideal functions...
-INFO:root:Plotting test dataset points...
-INFO:root:Plotting test dataset against ideal functions...
-INFO:root:Writing mapping to SQLite...
-2023-04-22 17:33:11,156 - INFO - Converting CSV files to dataset using CoreFunction class
-2023-04-22 17:33:11,191 - INFO - Converting CSV files to SQLite using pandas
-2023-04-22 17:33:11,264 - INFO - Finding the best fitting function
-2023-04-22 17:33:11,278 - INFO - Finding the best fitting function
-2023-04-22 17:33:11,296 - INFO - Finding the best fitting function
-2023-04-22 17:33:11,312 - INFO - Finding the best fitting function
-2023-04-22 17:33:11,331 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
-2023-04-22 17:33:11,701 - INFO - Fetching the test CSV datasets and plotting
-2023-04-22 17:33:11,702 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,705 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,708 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,711 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,715 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,721 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,726 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,730 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,737 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,742 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,746 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,755 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,762 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,772 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,778 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,786 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,792 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,802 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,813 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,834 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,856 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,878 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,885 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,896 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,902 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,917 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,928 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,942 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,952 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,963 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,966 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,971 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,978 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,981 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,984 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,993 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:11,998 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,003 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,014 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,019 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,027 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,032 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,040 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,050 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,058 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,113 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,132 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,147 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,152 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,168 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,176 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,181 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,191 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,199 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,206 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,213 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,216 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,223 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,228 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,231 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,233 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,236 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,242 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,246 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,248 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,250 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,254 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,259 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,263 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,265 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,267 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,273 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,278 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,281 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,284 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,289 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,294 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,298 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,300 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,305 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,311 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,314 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,317 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,326 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,332 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,335 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,340 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,344 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,349 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,352 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,357 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,361 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,365 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,367 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,372 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,376 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,380 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,383 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,387 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,394 - INFO - Finding the best classification function and the delta y for each point in the test dataset
-2023-04-22 17:33:12,397 - INFO - Plotting the test data into the Bokeh graph
-2023-04-22 17:33:18,678 - INFO - Writing the mapping to SQLite to export as a .db file
-2023-04-22 17:35:11,212 - INFO - Converting CSV files to dataset using CoreFunction class
-2023-04-22 17:35:11,243 - INFO - Converting CSV files to SQLite using pandas
-2023-04-22 17:35:11,323 - INFO - Finding the best fitting function
-2023-04-22 17:35:11,336 - INFO - Finding the best fitting function
-2023-04-22 17:35:11,355 - INFO - Finding the best fitting function
-2023-04-22 17:35:11,369 - INFO - Finding the best fitting function
-2023-04-22 17:35:11,384 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
-2023-04-22 17:35:11,740 - INFO - Fetching the test CSV datasets and plotting
-2023-04-22 17:35:11,740 - ERROR - name 'y_delta' is not defined
-2023-04-22 17:36:02,766 - INFO - Converting CSV files to dataset using CoreFunction class
-2023-04-22 17:36:02,793 - INFO - Converting CSV files to SQLite using pandas
-2023-04-22 17:36:02,877 - INFO - Finding the best fitting function
-2023-04-22 17:36:02,891 - INFO - Finding the best fitting function
-2023-04-22 17:36:02,906 - INFO - Finding the best fitting function
-2023-04-22 17:36:02,925 - INFO - Finding the best fitting function
-2023-04-22 17:36:02,943 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
-2023-04-22 17:36:03,342 - INFO - Fetching the test CSV datasets and plotting
-2023-04-22 17:36:03,345 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.10667262999999994 for each point in the test dataset
-2023-04-22 17:36:03,348 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.4884606 for each point in the test dataset
-2023-04-22 17:36:03,351 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.3500356 for each point in the test dataset
-2023-04-22 17:36:03,355 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.27042236999999997 for each point in the test dataset
-2023-04-22 17:36:03,359 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.2144301999999999 for each point in the test dataset
-2023-04-22 17:36:03,363 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.68365236 for each point in the test dataset
-2023-04-22 17:36:03,367 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.2890440500000001 for each point in the test dataset
-2023-04-22 17:36:03,374 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.26164319999999996 for each point in the test dataset
-2023-04-22 17:36:03,384 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.35206924000000006 for each point in the test dataset
-2023-04-22 17:36:03,388 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.07505618 for each point in the test dataset
-2023-04-22 17:36:03,396 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.49643740000000003 for each point in the test dataset
-2023-04-22 17:36:03,404 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,413 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.2381787999999998 for each point in the test dataset
-2023-04-22 17:36:03,426 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.22576320000000005 for each point in the test dataset
-2023-04-22 17:36:03,441 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.4061566999999997 for each point in the test dataset
-2023-04-22 17:36:03,468 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.09827017999999998 for each point in the test dataset
-2023-04-22 17:36:03,497 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.4619776299999999 for each point in the test dataset
-2023-04-22 17:36:03,506 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.23969166 for each point in the test dataset
-2023-04-22 17:36:03,519 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,527 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.40444804999999995 for each point in the test dataset
-2023-04-22 17:36:03,535 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.14087035999999997 for each point in the test dataset
-2023-04-22 17:36:03,541 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.16164960000000006 for each point in the test dataset
-2023-04-22 17:36:03,555 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.29320037 for each point in the test dataset
-2023-04-22 17:36:03,574 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.09330649999999996 for each point in the test dataset
-2023-04-22 17:36:03,589 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.29354499999999994 for each point in the test dataset
-2023-04-22 17:36:03,596 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.2154281 for each point in the test dataset
-2023-04-22 17:36:03,601 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.20536306000000015 for each point in the test dataset
-2023-04-22 17:36:03,606 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,611 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,625 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.10576311 for each point in the test dataset
-2023-04-22 17:36:03,635 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5497513999999999 for each point in the test dataset
-2023-04-22 17:36:03,639 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.4558800999999999 for each point in the test dataset
-2023-04-22 17:36:03,643 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.23679430899999998 for each point in the test dataset
-2023-04-22 17:36:03,654 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,667 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.5364146000000001 for each point in the test dataset
-2023-04-22 17:36:03,672 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.03570020999999998 for each point in the test dataset
-2023-04-22 17:36:03,676 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.63707412 for each point in the test dataset
-2023-04-22 17:36:03,689 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.65324916 for each point in the test dataset
-2023-04-22 17:36:03,703 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.06524074999999996 for each point in the test dataset
-2023-04-22 17:36:03,706 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.26730717000000004 for each point in the test dataset
-2023-04-22 17:36:03,711 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.25703224999999996 for each point in the test dataset
-2023-04-22 17:36:03,720 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.210457246 for each point in the test dataset
-2023-04-22 17:36:03,725 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,735 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.6947565 for each point in the test dataset
-2023-04-22 17:36:03,740 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,743 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,754 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.09516764 for each point in the test dataset
-2023-04-22 17:36:03,760 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,775 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.53324233 for each point in the test dataset
-2023-04-22 17:36:03,782 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.01728059999999998 for each point in the test dataset
-2023-04-22 17:36:03,786 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.14428001000000001 for each point in the test dataset
-2023-04-22 17:36:03,789 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.2805534999999999 for each point in the test dataset
-2023-04-22 17:36:03,793 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,804 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.08290819999999988 for each point in the test dataset
-2023-04-22 17:36:03,808 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,820 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5169587400000001 for each point in the test dataset
-2023-04-22 17:36:03,825 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.16516221000000003 for each point in the test dataset
-2023-04-22 17:36:03,833 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5511481600000001 for each point in the test dataset
-2023-04-22 17:36:03,837 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.27100813999999995 for each point in the test dataset
-2023-04-22 17:36:03,840 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.15589380000000008 for each point in the test dataset
-2023-04-22 17:36:03,843 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.1848999 for each point in the test dataset
-2023-04-22 17:36:03,849 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,852 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.04040275000000004 for each point in the test dataset
-2023-04-22 17:36:03,855 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.6362162 for each point in the test dataset
-2023-04-22 17:36:03,858 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,863 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,868 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.6465938 for each point in the test dataset
-2023-04-22 17:36:03,872 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.22958977000000003 for each point in the test dataset
-2023-04-22 17:36:03,875 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.08080211999999998 for each point in the test dataset
-2023-04-22 17:36:03,882 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.56344322 for each point in the test dataset
-2023-04-22 17:36:03,886 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,889 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.4054705999999999 for each point in the test dataset
-2023-04-22 17:36:03,894 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.7015603000000001 for each point in the test dataset
-2023-04-22 17:36:03,902 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.33404481 for each point in the test dataset
-2023-04-22 17:36:03,906 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,910 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.1225403599999999 for each point in the test dataset
-2023-04-22 17:36:03,918 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.18441818599999998 for each point in the test dataset
-2023-04-22 17:36:03,925 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,932 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.08147280000000001 for each point in the test dataset
-2023-04-22 17:36:03,937 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.7048386 for each point in the test dataset
-2023-04-22 17:36:03,941 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.33819246 for each point in the test dataset
-2023-04-22 17:36:03,947 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.56768995 for each point in the test dataset
-2023-04-22 17:36:03,954 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.465502108 for each point in the test dataset
-2023-04-22 17:36:03,957 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.00036249999999998783 for each point in the test dataset
-2023-04-22 17:36:03,963 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.58546179 for each point in the test dataset
-2023-04-22 17:36:03,968 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.3800880999999998 for each point in the test dataset
-2023-04-22 17:36:03,972 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.238998225 for each point in the test dataset
-2023-04-22 17:36:03,977 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.24312954999999992 for each point in the test dataset
-2023-04-22 17:36:03,984 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.26151241000000003 for each point in the test dataset
-2023-04-22 17:36:03,988 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:03,992 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.20754119999999998 for each point in the test dataset
-2023-04-22 17:36:03,997 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.10369989999999996 for each point in the test dataset
-2023-04-22 17:36:04,003 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.2729762 for each point in the test dataset
-2023-04-22 17:36:04,006 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.08058670000000001 for each point in the test dataset
-2023-04-22 17:36:04,009 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
-2023-04-22 17:36:04,020 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.40552401 for each point in the test dataset
-2023-04-22 17:36:04,039 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.52756878 for each point in the test dataset
-2023-04-22 17:36:04,049 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.22462020000000005 for each point in the test dataset
-2023-04-22 17:36:04,054 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.1393972 for each point in the test dataset
-2023-04-22 17:36:04,059 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.032876559999999944 for each point in the test dataset
-2023-04-22 17:36:04,059 - INFO - Plotting the test data into the Bokeh graph
-2023-04-22 17:36:10,077 - INFO - Writing the mapping to SQLite to export as a .db file
-2023-04-22 17:38:50,245 - INFO - Converting CSV files to dataset using CoreFunction class
-2023-04-22 17:38:50,281 - INFO - Converting CSV files to SQLite using pandas
-2023-04-22 17:38:50,367 - INFO - Finding the best fitting function
-2023-04-22 17:38:50,384 - INFO - Finding the best fitting function
-2023-04-22 17:38:50,403 - INFO - Finding the best fitting function
-2023-04-22 17:38:50,416 - INFO - Finding the best fitting function
-2023-04-22 17:38:50,435 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
-2023-04-22 17:38:50,832 - INFO - Fetching the test CSV datasets and plotting
-2023-04-22 17:38:51,271 - INFO - Plotting the test data into the Bokeh graph
-2023-04-22 17:38:57,667 - INFO - Writing the mapping to SQLite to export as a .db file
+2023-04-22 17:43:56,242 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:43:56,296 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:43:56,393 - INFO - Finding the best fitting function
+2023-04-22 17:43:56,416 - INFO - Finding the best fitting function
+2023-04-22 17:43:56,439 - INFO - Finding the best fitting function
+2023-04-22 17:43:56,461 - INFO - Finding the best fitting function
+2023-04-22 17:43:56,487 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:43:56,936 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:43:57,423 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:44:03,851 - INFO - Writing the mapping to SQLite to export as a .db file
+2023-04-22 17:45:36,879 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:45:36,912 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:45:36,988 - INFO - Finding the best fitting function
+2023-04-22 17:45:37,002 - INFO - Finding the best fitting function
+2023-04-22 17:45:37,015 - INFO - Finding the best fitting function
+2023-04-22 17:45:37,032 - INFO - Finding the best fitting function
+2023-04-22 17:45:37,052 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:45:37,464 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:45:37,874 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:45:44,226 - INFO - Writing the mapping to SQLite to export as a .db file
+2023-04-22 17:50:22,527 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:50:22,561 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:50:22,639 - INFO - Finding the best fitting function
+2023-04-22 17:50:22,639 - INFO - Invoking minimiseLoss with trainFunction=This is Function for y1, listOfCandidateFunctions=[This is Function for y1, This is Function for y2, This is Function for y3, This is Function for y4, This is Function for y5, This is Function for y6, This is Function for y7, This is Function for y8, This is Function for y9, This is Function for y10, This is Function for y11, This is Function for y12, This is Function for y13, This is Function for y14, This is Function for y15, This is Function for y16, This is Function for y17, This is Function for y18, This is Function for y19, This is Function for y20, This is Function for y21, This is Function for y22, This is Function for y23, This is Function for y24, This is Function for y25, This is Function for y26, This is Function for y27, This is Function for y28, This is Function for y29, This is Function for y30, This is Function for y31, This is Function for y32, This is Function for y33, This is Function for y34, This is Function for y35, This is Function for y36, This is Function for y37, This is Function for y38, This is Function for y39, This is Function for y40, This is Function for y41, This is Function for y42, This is Function for y43, This is Function for y44, This is Function for y45, This is Function for y46, This is Function for y47, This is Function for y48, This is Function for y49, This is Function for y50], lossFunction=<function errorSquared at 0x000001BAE9E9E290>
+2023-04-22 17:50:22,639 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y1
+2023-04-22 17:50:22,640 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y2
+2023-04-22 17:50:22,641 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y3
+2023-04-22 17:50:22,642 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y4
+2023-04-22 17:50:22,642 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y5
+2023-04-22 17:50:22,643 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y6
+2023-04-22 17:50:22,645 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y7
+2023-04-22 17:50:22,645 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y8
+2023-04-22 17:50:22,646 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y9
+2023-04-22 17:50:22,647 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y10
+2023-04-22 17:50:22,648 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y11
+2023-04-22 17:50:22,649 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y12
+2023-04-22 17:50:22,650 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y13
+2023-04-22 17:50:22,651 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y14
+2023-04-22 17:50:22,652 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y15
+2023-04-22 17:50:22,655 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y16
+2023-04-22 17:50:22,657 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y17
+2023-04-22 17:50:22,658 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y18
+2023-04-22 17:50:22,659 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y19
+2023-04-22 17:50:22,660 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y20
+2023-04-22 17:50:22,661 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y21
+2023-04-22 17:50:22,661 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y22
+2023-04-22 17:50:22,662 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y23
+2023-04-22 17:50:22,663 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y24
+2023-04-22 17:50:22,664 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y25
+2023-04-22 17:50:22,666 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y26
+2023-04-22 17:50:22,668 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y27
+2023-04-22 17:50:22,670 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y28
+2023-04-22 17:50:22,671 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y29
+2023-04-22 17:50:22,672 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y30
+2023-04-22 17:50:22,673 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y31
+2023-04-22 17:50:22,674 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y32
+2023-04-22 17:50:22,675 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y33
+2023-04-22 17:50:22,676 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y34
+2023-04-22 17:50:22,677 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y35
+2023-04-22 17:50:22,678 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y36
+2023-04-22 17:50:22,678 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y37
+2023-04-22 17:50:22,679 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y38
+2023-04-22 17:50:22,680 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y39
+2023-04-22 17:50:22,681 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y40
+2023-04-22 17:50:22,684 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y41
+2023-04-22 17:50:22,686 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y42
+2023-04-22 17:50:22,687 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y43
+2023-04-22 17:50:22,689 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y44
+2023-04-22 17:50:22,689 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y45
+2023-04-22 17:50:22,690 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y46
+2023-04-22 17:50:22,691 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y47
+2023-04-22 17:50:22,692 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y48
+2023-04-22 17:50:22,693 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y49
+2023-04-22 17:50:22,693 - INFO - Invoking errorSquared with firstFunction=This is Function for y1, secondFunction=This is Function for y50
+2023-04-22 17:50:22,694 - INFO - Finding the best fitting function
+2023-04-22 17:50:22,694 - INFO - Invoking minimiseLoss with trainFunction=This is Function for y2, listOfCandidateFunctions=[This is Function for y1, This is Function for y2, This is Function for y3, This is Function for y4, This is Function for y5, This is Function for y6, This is Function for y7, This is Function for y8, This is Function for y9, This is Function for y10, This is Function for y11, This is Function for y12, This is Function for y13, This is Function for y14, This is Function for y15, This is Function for y16, This is Function for y17, This is Function for y18, This is Function for y19, This is Function for y20, This is Function for y21, This is Function for y22, This is Function for y23, This is Function for y24, This is Function for y25, This is Function for y26, This is Function for y27, This is Function for y28, This is Function for y29, This is Function for y30, This is Function for y31, This is Function for y32, This is Function for y33, This is Function for y34, This is Function for y35, This is Function for y36, This is Function for y37, This is Function for y38, This is Function for y39, This is Function for y40, This is Function for y41, This is Function for y42, This is Function for y43, This is Function for y44, This is Function for y45, This is Function for y46, This is Function for y47, This is Function for y48, This is Function for y49, This is Function for y50], lossFunction=<function errorSquared at 0x000001BAE9E9E290>
+2023-04-22 17:50:22,695 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y1
+2023-04-22 17:50:22,697 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y2
+2023-04-22 17:50:22,700 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y3
+2023-04-22 17:50:22,702 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y4
+2023-04-22 17:50:22,703 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y5
+2023-04-22 17:50:22,704 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y6
+2023-04-22 17:50:22,705 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y7
+2023-04-22 17:50:22,706 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y8
+2023-04-22 17:50:22,707 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y9
+2023-04-22 17:50:22,707 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y10
+2023-04-22 17:50:22,708 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y11
+2023-04-22 17:50:22,709 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y12
+2023-04-22 17:50:22,710 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y13
+2023-04-22 17:50:22,711 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y14
+2023-04-22 17:50:22,712 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y15
+2023-04-22 17:50:22,712 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y16
+2023-04-22 17:50:22,713 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y17
+2023-04-22 17:50:22,716 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y18
+2023-04-22 17:50:22,719 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y19
+2023-04-22 17:50:22,720 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y20
+2023-04-22 17:50:22,722 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y21
+2023-04-22 17:50:22,723 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y22
+2023-04-22 17:50:22,724 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y23
+2023-04-22 17:50:22,728 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y24
+2023-04-22 17:50:22,732 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y25
+2023-04-22 17:50:22,754 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y26
+2023-04-22 17:50:22,755 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y27
+2023-04-22 17:50:22,757 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y28
+2023-04-22 17:50:22,759 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y29
+2023-04-22 17:50:22,763 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y30
+2023-04-22 17:50:22,765 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y31
+2023-04-22 17:50:22,769 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y32
+2023-04-22 17:50:22,791 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y33
+2023-04-22 17:50:22,796 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y34
+2023-04-22 17:50:22,801 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y35
+2023-04-22 17:50:22,818 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y36
+2023-04-22 17:50:22,821 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y37
+2023-04-22 17:50:22,822 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y38
+2023-04-22 17:50:22,823 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y39
+2023-04-22 17:50:22,824 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y40
+2023-04-22 17:50:22,824 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y41
+2023-04-22 17:50:22,825 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y42
+2023-04-22 17:50:22,826 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y43
+2023-04-22 17:50:22,827 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y44
+2023-04-22 17:50:22,828 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y45
+2023-04-22 17:50:22,829 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y46
+2023-04-22 17:50:22,837 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y47
+2023-04-22 17:50:22,838 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y48
+2023-04-22 17:50:22,840 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y49
+2023-04-22 17:50:22,841 - INFO - Invoking errorSquared with firstFunction=This is Function for y2, secondFunction=This is Function for y50
+2023-04-22 17:50:22,842 - INFO - Finding the best fitting function
+2023-04-22 17:50:22,842 - INFO - Invoking minimiseLoss with trainFunction=This is Function for y3, listOfCandidateFunctions=[This is Function for y1, This is Function for y2, This is Function for y3, This is Function for y4, This is Function for y5, This is Function for y6, This is Function for y7, This is Function for y8, This is Function for y9, This is Function for y10, This is Function for y11, This is Function for y12, This is Function for y13, This is Function for y14, This is Function for y15, This is Function for y16, This is Function for y17, This is Function for y18, This is Function for y19, This is Function for y20, This is Function for y21, This is Function for y22, This is Function for y23, This is Function for y24, This is Function for y25, This is Function for y26, This is Function for y27, This is Function for y28, This is Function for y29, This is Function for y30, This is Function for y31, This is Function for y32, This is Function for y33, This is Function for y34, This is Function for y35, This is Function for y36, This is Function for y37, This is Function for y38, This is Function for y39, This is Function for y40, This is Function for y41, This is Function for y42, This is Function for y43, This is Function for y44, This is Function for y45, This is Function for y46, This is Function for y47, This is Function for y48, This is Function for y49, This is Function for y50], lossFunction=<function errorSquared at 0x000001BAE9E9E290>
+2023-04-22 17:50:22,843 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y1
+2023-04-22 17:50:22,844 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y2
+2023-04-22 17:50:22,845 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y3
+2023-04-22 17:50:22,845 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y4
+2023-04-22 17:50:22,846 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y5
+2023-04-22 17:50:22,847 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y6
+2023-04-22 17:50:22,849 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y7
+2023-04-22 17:50:22,851 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y8
+2023-04-22 17:50:22,854 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y9
+2023-04-22 17:50:22,855 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y10
+2023-04-22 17:50:22,856 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y11
+2023-04-22 17:50:22,856 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y12
+2023-04-22 17:50:22,857 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y13
+2023-04-22 17:50:22,858 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y14
+2023-04-22 17:50:22,858 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y15
+2023-04-22 17:50:22,859 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y16
+2023-04-22 17:50:22,860 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y17
+2023-04-22 17:50:22,860 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y18
+2023-04-22 17:50:22,861 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y19
+2023-04-22 17:50:22,862 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y20
+2023-04-22 17:50:22,862 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y21
+2023-04-22 17:50:22,863 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y22
+2023-04-22 17:50:22,864 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y23
+2023-04-22 17:50:22,865 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y24
+2023-04-22 17:50:22,867 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y25
+2023-04-22 17:50:22,869 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y26
+2023-04-22 17:50:22,871 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y27
+2023-04-22 17:50:22,872 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y28
+2023-04-22 17:50:22,873 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y29
+2023-04-22 17:50:22,873 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y30
+2023-04-22 17:50:22,874 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y31
+2023-04-22 17:50:22,875 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y32
+2023-04-22 17:50:22,876 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y33
+2023-04-22 17:50:22,876 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y34
+2023-04-22 17:50:22,877 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y35
+2023-04-22 17:50:22,877 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y36
+2023-04-22 17:50:22,878 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y37
+2023-04-22 17:50:22,879 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y38
+2023-04-22 17:50:22,890 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y39
+2023-04-22 17:50:22,901 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y40
+2023-04-22 17:50:22,926 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y41
+2023-04-22 17:50:22,927 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y42
+2023-04-22 17:50:22,928 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y43
+2023-04-22 17:50:22,929 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y44
+2023-04-22 17:50:22,931 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y45
+2023-04-22 17:50:22,933 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y46
+2023-04-22 17:50:22,936 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y47
+2023-04-22 17:50:22,938 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y48
+2023-04-22 17:50:22,939 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y49
+2023-04-22 17:50:22,942 - INFO - Invoking errorSquared with firstFunction=This is Function for y3, secondFunction=This is Function for y50
+2023-04-22 17:50:22,944 - INFO - Finding the best fitting function
+2023-04-22 17:50:22,945 - INFO - Invoking minimiseLoss with trainFunction=This is Function for y4, listOfCandidateFunctions=[This is Function for y1, This is Function for y2, This is Function for y3, This is Function for y4, This is Function for y5, This is Function for y6, This is Function for y7, This is Function for y8, This is Function for y9, This is Function for y10, This is Function for y11, This is Function for y12, This is Function for y13, This is Function for y14, This is Function for y15, This is Function for y16, This is Function for y17, This is Function for y18, This is Function for y19, This is Function for y20, This is Function for y21, This is Function for y22, This is Function for y23, This is Function for y24, This is Function for y25, This is Function for y26, This is Function for y27, This is Function for y28, This is Function for y29, This is Function for y30, This is Function for y31, This is Function for y32, This is Function for y33, This is Function for y34, This is Function for y35, This is Function for y36, This is Function for y37, This is Function for y38, This is Function for y39, This is Function for y40, This is Function for y41, This is Function for y42, This is Function for y43, This is Function for y44, This is Function for y45, This is Function for y46, This is Function for y47, This is Function for y48, This is Function for y49, This is Function for y50], lossFunction=<function errorSquared at 0x000001BAE9E9E290>
+2023-04-22 17:50:22,945 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y1
+2023-04-22 17:50:22,950 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y2
+2023-04-22 17:50:22,953 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y3
+2023-04-22 17:50:22,955 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y4
+2023-04-22 17:50:22,956 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y5
+2023-04-22 17:50:22,957 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y6
+2023-04-22 17:50:22,958 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y7
+2023-04-22 17:50:22,959 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y8
+2023-04-22 17:50:22,960 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y9
+2023-04-22 17:50:22,960 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y10
+2023-04-22 17:50:22,961 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y11
+2023-04-22 17:50:22,962 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y12
+2023-04-22 17:50:22,963 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y13
+2023-04-22 17:50:22,964 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y14
+2023-04-22 17:50:22,966 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y15
+2023-04-22 17:50:22,968 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y16
+2023-04-22 17:50:22,970 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y17
+2023-04-22 17:50:22,971 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y18
+2023-04-22 17:50:22,972 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y19
+2023-04-22 17:50:22,973 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y20
+2023-04-22 17:50:22,974 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y21
+2023-04-22 17:50:22,974 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y22
+2023-04-22 17:50:22,975 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y23
+2023-04-22 17:50:22,976 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y24
+2023-04-22 17:50:22,977 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y25
+2023-04-22 17:50:22,977 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y26
+2023-04-22 17:50:22,978 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y27
+2023-04-22 17:50:22,979 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y28
+2023-04-22 17:50:22,979 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y29
+2023-04-22 17:50:22,981 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y30
+2023-04-22 17:50:22,983 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y31
+2023-04-22 17:50:22,985 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y32
+2023-04-22 17:50:22,986 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y33
+2023-04-22 17:50:22,988 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y34
+2023-04-22 17:50:22,988 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y35
+2023-04-22 17:50:22,989 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y36
+2023-04-22 17:50:22,990 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y37
+2023-04-22 17:50:22,991 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y38
+2023-04-22 17:50:22,991 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y39
+2023-04-22 17:50:22,993 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y40
+2023-04-22 17:50:22,994 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y41
+2023-04-22 17:50:22,995 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y42
+2023-04-22 17:50:22,996 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y43
+2023-04-22 17:50:22,997 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y44
+2023-04-22 17:50:22,999 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y45
+2023-04-22 17:50:23,001 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y46
+2023-04-22 17:50:23,003 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y47
+2023-04-22 17:50:23,004 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y48
+2023-04-22 17:50:23,004 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y49
+2023-04-22 17:50:23,005 - INFO - Invoking errorSquared with firstFunction=This is Function for y4, secondFunction=This is Function for y50
+2023-04-22 17:50:23,006 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:50:23,426 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:50:23,427 - INFO - Invoking findClassification with point={'x': 0.1, 'y': 0.73208857}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,432 - INFO - Invoking findClassification with point={'x': 13.7, 'y': 1.5736614}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,435 - INFO - Invoking findClassification with point={'x': 12.6, 'y': 1.6488336}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,440 - INFO - Invoking findClassification with point={'x': 14.0, 'y': 0.5438968}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,446 - INFO - Invoking findClassification with point={'x': 11.0, 'y': -1.2144008}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,450 - INFO - Invoking findClassification with point={'x': -9.1, 'y': 1.5874625}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,454 - INFO - Invoking findClassification with point={'x': -3.5, 'y': -1.0945073}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,459 - INFO - Invoking findClassification with point={'x': 5.5, 'y': 1.1556964}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,463 - INFO - Invoking findClassification with point={'x': 7.8, 'y': -1.2647268}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,468 - INFO - Invoking findClassification with point={'x': -7.7, 'y': 0.22782943}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,474 - INFO - Invoking findClassification with point={'x': -5.3, 'y': 1.6360358}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,483 - INFO - Invoking findClassification with point={'x': -10.7, 'y': -1.9818746}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,491 - INFO - Invoking findClassification with point={'x': 6.6, 'y': 1.6622863}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,500 - INFO - Invoking findClassification with point={'x': 14.4, 'y': 1.258926}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,506 - INFO - Invoking findClassification with point={'x': 9.7, 'y': -2.3308864}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,520 - INFO - Invoking findClassification with point={'x': 17.6, 'y': 0.21225336}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,542 - INFO - Invoking findClassification with point={'x': -9.3, 'y': -1.4573538}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,621 - INFO - Invoking findClassification with point={'x': 5.7, 'y': 0.38575155}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,642 - INFO - Invoking findClassification with point={'x': 13.5, 'y': 1.9525954}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,666 - INFO - Invoking findClassification with point={'x': -14.9, 'y': 0.45951045}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,676 - INFO - Invoking findClassification with point={'x': -17.9, 'y': 0.6906031}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,688 - INFO - Invoking findClassification with point={'x': 15.2, 'y': -1.5858244}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,693 - INFO - Invoking findClassification with point={'x': -11.9, 'y': 0.41438153}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,701 - INFO - Invoking findClassification with point={'x': -15.2, 'y': -1.8407805}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,711 - INFO - Invoking findClassification with point={'x': 9.1, 'y': -1.1056331}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,722 - INFO - Invoking findClassification with point={'x': 18.8, 'y': 1.2153695}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,728 - INFO - Invoking findClassification with point={'x': -14.5, 'y': -1.0142869}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,734 - INFO - Invoking findClassification with point={'x': 5.5, 'y': -1.8046528}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,745 - INFO - Invoking findClassification with point={'x': -11.2, 'y': 2.0070739}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,763 - INFO - Invoking findClassification with point={'x': 2.0, 'y': -0.29847604}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,776 - INFO - Invoking findClassification with point={'x': 8.4, 'y': 1.674011}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,782 - INFO - Invoking findClassification with point={'x': 0.8, 'y': 1.8492935}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,792 - INFO - Invoking findClassification with point={'x': 8.3, 'y': 0.013650539}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,796 - INFO - Invoking findClassification with point={'x': 4.2, 'y': 0.38003084}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,807 - INFO - Invoking findClassification with point={'x': -7.5, 'y': 1.2296852}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,813 - INFO - Invoking findClassification with point={'x': -11.2, 'y': -0.18614472}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,825 - INFO - Invoking findClassification with point={'x': -15.6, 'y': -0.20123678}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,829 - INFO - Invoking findClassification with point={'x': 8.6, 'y': 0.54180884}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,838 - INFO - Invoking findClassification with point={'x': -13.6, 'y': -0.6625616}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,845 - INFO - Invoking findClassification with point={'x': 11.6, 'y': 0.23691767}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,861 - INFO - Invoking findClassification with point={'x': -17.4, 'y': 0.6625851}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,886 - INFO - Invoking findClassification with point={'x': 18.2, 'y': 0.23980168}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,896 - INFO - Invoking findClassification with point={'x': 2.0, 'y': -1.7522272}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,907 - INFO - Invoking findClassification with point={'x': -3.2, 'y': 1.7497231}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,911 - INFO - Invoking findClassification with point={'x': -18.3, 'y': 2.4557576}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,915 - INFO - Invoking findClassification with point={'x': 0.3, 'y': -0.81316525}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,922 - INFO - Invoking findClassification with point={'x': -18.5, 'y': 0.90244544}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,925 - INFO - Invoking findClassification with point={'x': 17.4, 'y': 2.0949667}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,928 - INFO - Invoking findClassification with point={'x': -4.7, 'y': -0.63193285}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,934 - INFO - Invoking findClassification with point={'x': 8.7, 'y': -0.6979285}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,941 - INFO - Invoking findClassification with point={'x': 3.5, 'y': -0.66118324}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,944 - INFO - Invoking findClassification with point={'x': 12.0, 'y': 1.4071544}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,947 - INFO - Invoking findClassification with point={'x': -15.1, 'y': 2.2857559}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,958 - INFO - Invoking findClassification with point={'x': -6.3, 'y': 2.0826254}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:23,991 - INFO - Invoking findClassification with point={'x': 4.4, 'y': -1.6104869}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,011 - INFO - Invoking findClassification with point={'x': 11.2, 'y': -1.4549255}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,019 - INFO - Invoking findClassification with point={'x': 5.4, 'y': 0.42776805}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,026 - INFO - Invoking findClassification with point={'x': 17.0, 'y': -1.4368308}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,031 - INFO - Invoking findClassification with point={'x': 5.5, 'y': -0.64814556}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,039 - INFO - Invoking findClassification with point={'x': 19.8, 'y': 0.7682849}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,044 - INFO - Invoking findClassification with point={'x': -8.7, 'y': -0.8655478}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,046 - INFO - Invoking findClassification with point={'x': -2.1, 'y': -1.7872955}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,053 - INFO - Invoking findClassification with point={'x': 4.8, 'y': -0.94810575}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,057 - INFO - Invoking findClassification with point={'x': -12.8, 'y': 2.5818813}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,061 - INFO - Invoking findClassification with point={'x': 14.4, 'y': -1.2526307}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,064 - INFO - Invoking findClassification with point={'x': 10.0, 'y': 1.367334}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,070 - INFO - Invoking findClassification with point={'x': 16.7, 'y': -1.7405658}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,074 - INFO - Invoking findClassification with point={'x': 7.8, 'y': 0.77186483}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,079 - INFO - Invoking findClassification with point={'x': 18.5, 'y': 0.26337162}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,086 - INFO - Invoking findClassification with point={'x': -19.5, 'y': -0.6804634}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,094 - INFO - Invoking findClassification with point={'x': 14.7, 'y': 1.9000422}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,099 - INFO - Invoking findClassification with point={'x': 14.9, 'y': 1.6057945}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,107 - INFO - Invoking findClassification with point={'x': 15.6, 'y': 1.7977031}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,110 - INFO - Invoking findClassification with point={'x': -3.8, 'y': -0.37698925}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,117 - INFO - Invoking findClassification with point={'x': 6.1, 'y': -1.5427058}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,123 - INFO - Invoking findClassification with point={'x': 14.1, 'y': -0.6543191}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,126 - INFO - Invoking findClassification with point={'x': 4.8, 'y': -0.09703081}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,130 - INFO - Invoking findClassification with point={'x': 16.6, 'y': 1.7931271}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,138 - INFO - Invoking findClassification with point={'x': -15.3, 'y': -1.7543888}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,142 - INFO - Invoking findClassification with point={'x': 12.9, 'y': 2.5945587}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,145 - INFO - Invoking findClassification with point={'x': -13.7, 'y': 0.07264692}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,150 - INFO - Invoking findClassification with point={'x': 6.3, 'y': 0.27370465}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,157 - INFO - Invoking findClassification with point={'x': 6.1, 'y': -0.004339942}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,160 - INFO - Invoking findClassification with point={'x': -1.7, 'y': 0.24930929}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,163 - INFO - Invoking findClassification with point={'x': 3.2, 'y': -0.14241607}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,169 - INFO - Invoking findClassification with point={'x': 9.5, 'y': -1.6142563}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,172 - INFO - Invoking findClassification with point={'x': 1.9, 'y': -0.078689195}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,175 - INFO - Invoking findClassification with point={'x': 15.5, 'y': -0.58650535}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,178 - INFO - Invoking findClassification with point={'x': 13.6, 'y': 0.12234171}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,182 - INFO - Invoking findClassification with point={'x': 3.4, 'y': 1.4664434}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,188 - INFO - Invoking findClassification with point={'x': 13.7, 'y': -0.9287593}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,191 - INFO - Invoking findClassification with point={'x': 11.3, 'y': -0.9678719}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,194 - INFO - Invoking findClassification with point={'x': -3.8, 'y': 1.510464}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,197 - INFO - Invoking findClassification with point={'x': -12.3, 'y': 1.2745275}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,203 - INFO - Invoking findClassification with point={'x': 7.0, 'y': -0.03885202}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,207 - INFO - Invoking findClassification with point={'x': -14.7, 'y': -0.10309869}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,209 - INFO - Invoking findClassification with point={'x': 3.3, 'y': -0.30707172}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,212 - INFO - Invoking findClassification with point={'x': -6.0, 'y': 0.594669}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,215 - INFO - Invoking findClassification with point={'x': -17.6, 'y': 0.17112634}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,221 - INFO - Invoking findClassification with point={'x': -11.3, 'y': 0.8651657}, idealFunctions=[This is Function for y50, This is Function for y8, This is Function for y34, This is Function for y9]
+2023-04-22 17:50:24,224 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:50:30,556 - INFO - Writing the mapping to SQLite to export as a .db file

@@ -30,3 +30,4 @@ class UnitTest(unittest.TestCase):
         self.assertEqual(errorSquared(self.secondFunction, self.firstFunction), 14.0)
         # test to check that regression is zero or not
         self.assertEqual(errorSquared(self.firstFunction, self.firstFunction), 0.0)
+

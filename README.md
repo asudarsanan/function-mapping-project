@@ -19,10 +19,10 @@ In order to complete this project, you will need to have knowledge of Python pro
 
 ## **Table of Contents**
 
-* **__[Installation]()__**
-* **__[Usage]()__**
-* **__[Contributing]()__**
-* **__[License]()__**
+* **__[Installation](https://github.com/asudarsanan/function-mapping-project/tree/devlop#installation)__**
+* **__[Usage](https://github.com/asudarsanan/function-mapping-project/tree/devlop#usage)__**
+* **__[Contributing](https://github.com/asudarsanan/function-mapping-project/tree/devlop#contributing)__**
+* **__[License](https://github.com/asudarsanan/function-mapping-project/tree/devlop#license)__**
 
 ## Installation
 
@@ -119,4 +119,4 @@ Before submitting a pull request, please make sure that your changes are well-te
 
 ## **License**
 
-This project is licensed under the MIT License. See the **LICENSE** file for more information.
+This project is licensed under the MIT License. See the **__[**LICENSE**](https://github.com/asudarsanan/function-mapping-project/blob/main/LICENSE)__** file for more information.

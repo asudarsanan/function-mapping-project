@@ -1,6 +1,6 @@
-from file_function_model_worker import CoreFunction
+from function_model_worker import CoreFunction
 from mapping_best_functions import writeToSqlite
-from calsulation_worker import minimiseLoss, findClassification, errorSquared
+from calculations_worker import minimiseLoss, findClassification, errorSquared
 from visualisation_worker import plotIdealFunctions, createPlottingPointBasedOnIdealFunction
 import math
 import pandas as pd
@@ -42,7 +42,7 @@ if __name__ == '__main__':
         idealFunctions.append(idealFunction)
 
     # Let's plot the ideal function the graph plot and save to the html file
-    plotIdealFunctions(idealFunctions, "plotIdealFunction")
+    plotIdealFunctions(idealFunctions, "ideal-functions-vs-training-data")
 
     # Let's fetch test CSV datasets and plot
     testDataSetPoints = testCsvDataset.functions[0]
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         testDataSetIdealFunctionPoints.append(result)
 
     # let's plot the test data into the bokeh graph
-    createPlottingPointBasedOnIdealFunction(testDataSetIdealFunctionPoints, "plottingTestDataSetIdealFunction")
+    createPlottingPointBasedOnIdealFunction(testDataSetIdealFunctionPoints, "test-functions-vs-ideal-functions")
     # Write the mapping to the sqlite to export as .db file
     writeToSqlite(testDataSetIdealFunctionPoints)
 

@@ -20,7 +20,7 @@ def plotIdealFunctions(idealFunctions, fileName):
         graphData = createGraphFromTwoFunctions(lineFunction=idealFunction, scatterFunction=idealFunction.training_function,
                                                 squaredError=idealFunction.error)
         graphPlots.append(graphData)
-    output_file("{}.html".format(fileName), title="Training functions VS Best ideal functions")
+    output_file("output-data/{}.html".format(fileName), title="Training functions VS Best ideal functions")
     n = len(graphPlots)
     plots = []
     row = []
@@ -65,7 +65,7 @@ def createPlottingPointBasedOnIdealFunction(classificationPoints, fileName):
         grid.append(row)
 
     # Create output file and show grid of plots with updated title
-    output_file(f"{fileName}.html", title='Test points VS Ideal functions')
+    output_file(f"output-data/{fileName}.html", title='Test points VS Ideal functions')
     show(gridplot(grid))
 
 def createGraphFromTwoFunctions(scatterFunction, lineFunction, squaredError):

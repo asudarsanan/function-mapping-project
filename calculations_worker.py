@@ -1,4 +1,4 @@
-from file_function_model_worker import IdealFunction
+from function_model_worker import IdealFunction
 
 def minimiseLoss(trainFunction, listOfCandidateFunctions, lossFunction):
     ###

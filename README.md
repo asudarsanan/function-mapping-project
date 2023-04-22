@@ -32,17 +32,15 @@ To install this project, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```python
-   git clone https://github.com/<username>/<repository-name>.git
+   git clone https://github.com/asudarsanan/function-mapping-project.git
    ```
 
-   Note: Replace `<username>` and `<repository-name>` with your GitHub username and the name of the repository.
 2. Navigate to the project directory:
 
    ```
-   cd <repository-name>
+   cd function-mapping-project
    ```
 
-   Note: Replace `<repository-name>` with the name of the repository.
 3. Install Python 3 if it is not already installed on your machine.
 4. Install the required modules by running the following command:
 
@@ -76,7 +74,7 @@ To use this program, follow these steps:
 4. Enable INFO level logs by uncommenting the following lines in the **main.py** file:
 
    ```python
-   bashCopy code#INFO level logs can be enabled, when needed. {INFO}
+   #INFO level logs can be enabled, when needed. {INFO}
    logger.setLevel(logging.INFO)
    
    ```
@@ -85,7 +83,7 @@ To use this program, follow these steps:
 5. Run the **main.py** file using the following command:
 
    ```python
-   cssCopy codepython3 main.py
+   python3 main.py
    
    ```
 
@@ -94,7 +92,7 @@ To use this program, follow these steps:
 7. If you want to update the input datasets, simply replace the old files in the **input-data** directory with the new ones. Then, re-run the **main.py** file to analyze the new data.
 
    ```bash
-   bashCopy codecp /path/to/new/train/dataset.csv <repository-name>/input-data/train.csv
+   cp /path/to/new/train/dataset.csv <repository-name>/input-data/train.csv
    cp /path/to/new/test/dataset.csv <repository-name>/input-data/test.csv
    cp /path/to/new/ideal/functions.csv <repository-name>/input-data/ideal.csv
    

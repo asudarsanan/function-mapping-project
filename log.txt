@@ -1,0 +1,269 @@
+INFO:root:Reading CSV files...
+INFO:root:Converting CSV files to SQLite...
+INFO:root:Finding ideal function for train function: This is Function for y1
+INFO:root:Finding ideal function for train function: This is Function for y2
+INFO:root:Finding ideal function for train function: This is Function for y3
+INFO:root:Finding ideal function for train function: This is Function for y4
+INFO:root:Plotting ideal functions...
+INFO:root:Plotting test dataset points...
+INFO:root:Plotting test dataset against ideal functions...
+INFO:root:Writing mapping to SQLite...
+INFO:root:Reading CSV files...
+INFO:root:Converting CSV files to SQLite...
+INFO:root:Finding ideal function for train function: This is Function for y1
+INFO:root:Finding ideal function for train function: This is Function for y2
+INFO:root:Finding ideal function for train function: This is Function for y3
+INFO:root:Finding ideal function for train function: This is Function for y4
+INFO:root:Plotting ideal functions...
+INFO:root:Plotting test dataset points...
+INFO:root:Plotting test dataset against ideal functions...
+INFO:root:Writing mapping to SQLite...
+INFO:root:Reading CSV files...
+INFO:root:Converting CSV files to SQLite...
+INFO:root:Finding ideal function for train function: This is Function for y1
+INFO:root:Finding ideal function for train function: This is Function for y2
+INFO:root:Finding ideal function for train function: This is Function for y3
+INFO:root:Finding ideal function for train function: This is Function for y4
+INFO:root:Plotting ideal functions...
+INFO:root:Plotting test dataset points...
+INFO:root:Plotting test dataset against ideal functions...
+INFO:root:Writing mapping to SQLite...
+2023-04-22 17:33:11,156 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:33:11,191 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:33:11,264 - INFO - Finding the best fitting function
+2023-04-22 17:33:11,278 - INFO - Finding the best fitting function
+2023-04-22 17:33:11,296 - INFO - Finding the best fitting function
+2023-04-22 17:33:11,312 - INFO - Finding the best fitting function
+2023-04-22 17:33:11,331 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:33:11,701 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:33:11,702 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,705 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,708 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,711 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,715 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,721 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,726 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,730 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,737 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,742 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,746 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,755 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,762 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,772 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,778 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,786 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,792 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,802 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,813 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,834 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,856 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,878 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,885 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,896 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,902 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,917 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,928 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,942 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,952 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,963 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,966 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,971 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,978 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,981 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,984 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,993 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:11,998 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,003 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,014 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,019 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,027 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,032 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,040 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,050 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,058 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,113 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,132 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,147 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,152 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,168 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,176 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,181 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,191 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,199 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,206 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,213 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,216 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,223 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,228 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,231 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,233 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,236 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,242 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,246 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,248 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,250 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,254 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,259 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,263 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,265 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,267 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,273 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,278 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,281 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,284 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,289 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,294 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,298 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,300 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,305 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,311 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,314 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,317 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,326 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,332 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,335 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,340 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,344 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,349 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,352 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,357 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,361 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,365 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,367 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,372 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,376 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,380 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,383 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,387 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,394 - INFO - Finding the best classification function and the delta y for each point in the test dataset
+2023-04-22 17:33:12,397 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:33:18,678 - INFO - Writing the mapping to SQLite to export as a .db file
+2023-04-22 17:35:11,212 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:35:11,243 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:35:11,323 - INFO - Finding the best fitting function
+2023-04-22 17:35:11,336 - INFO - Finding the best fitting function
+2023-04-22 17:35:11,355 - INFO - Finding the best fitting function
+2023-04-22 17:35:11,369 - INFO - Finding the best fitting function
+2023-04-22 17:35:11,384 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:35:11,740 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:35:11,740 - ERROR - name 'y_delta' is not defined
+2023-04-22 17:36:02,766 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:36:02,793 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:36:02,877 - INFO - Finding the best fitting function
+2023-04-22 17:36:02,891 - INFO - Finding the best fitting function
+2023-04-22 17:36:02,906 - INFO - Finding the best fitting function
+2023-04-22 17:36:02,925 - INFO - Finding the best fitting function
+2023-04-22 17:36:02,943 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:36:03,342 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:36:03,345 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.10667262999999994 for each point in the test dataset
+2023-04-22 17:36:03,348 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.4884606 for each point in the test dataset
+2023-04-22 17:36:03,351 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.3500356 for each point in the test dataset
+2023-04-22 17:36:03,355 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.27042236999999997 for each point in the test dataset
+2023-04-22 17:36:03,359 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.2144301999999999 for each point in the test dataset
+2023-04-22 17:36:03,363 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.68365236 for each point in the test dataset
+2023-04-22 17:36:03,367 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.2890440500000001 for each point in the test dataset
+2023-04-22 17:36:03,374 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.26164319999999996 for each point in the test dataset
+2023-04-22 17:36:03,384 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.35206924000000006 for each point in the test dataset
+2023-04-22 17:36:03,388 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.07505618 for each point in the test dataset
+2023-04-22 17:36:03,396 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.49643740000000003 for each point in the test dataset
+2023-04-22 17:36:03,404 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,413 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.2381787999999998 for each point in the test dataset
+2023-04-22 17:36:03,426 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.22576320000000005 for each point in the test dataset
+2023-04-22 17:36:03,441 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.4061566999999997 for each point in the test dataset
+2023-04-22 17:36:03,468 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.09827017999999998 for each point in the test dataset
+2023-04-22 17:36:03,497 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.4619776299999999 for each point in the test dataset
+2023-04-22 17:36:03,506 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.23969166 for each point in the test dataset
+2023-04-22 17:36:03,519 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,527 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.40444804999999995 for each point in the test dataset
+2023-04-22 17:36:03,535 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.14087035999999997 for each point in the test dataset
+2023-04-22 17:36:03,541 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.16164960000000006 for each point in the test dataset
+2023-04-22 17:36:03,555 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.29320037 for each point in the test dataset
+2023-04-22 17:36:03,574 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.09330649999999996 for each point in the test dataset
+2023-04-22 17:36:03,589 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.29354499999999994 for each point in the test dataset
+2023-04-22 17:36:03,596 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.2154281 for each point in the test dataset
+2023-04-22 17:36:03,601 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.20536306000000015 for each point in the test dataset
+2023-04-22 17:36:03,606 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,611 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,625 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.10576311 for each point in the test dataset
+2023-04-22 17:36:03,635 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5497513999999999 for each point in the test dataset
+2023-04-22 17:36:03,639 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.4558800999999999 for each point in the test dataset
+2023-04-22 17:36:03,643 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.23679430899999998 for each point in the test dataset
+2023-04-22 17:36:03,654 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,667 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.5364146000000001 for each point in the test dataset
+2023-04-22 17:36:03,672 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.03570020999999998 for each point in the test dataset
+2023-04-22 17:36:03,676 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.63707412 for each point in the test dataset
+2023-04-22 17:36:03,689 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.65324916 for each point in the test dataset
+2023-04-22 17:36:03,703 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.06524074999999996 for each point in the test dataset
+2023-04-22 17:36:03,706 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.26730717000000004 for each point in the test dataset
+2023-04-22 17:36:03,711 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.25703224999999996 for each point in the test dataset
+2023-04-22 17:36:03,720 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.210457246 for each point in the test dataset
+2023-04-22 17:36:03,725 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,735 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.6947565 for each point in the test dataset
+2023-04-22 17:36:03,740 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,743 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,754 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.09516764 for each point in the test dataset
+2023-04-22 17:36:03,760 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,775 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.53324233 for each point in the test dataset
+2023-04-22 17:36:03,782 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.01728059999999998 for each point in the test dataset
+2023-04-22 17:36:03,786 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.14428001000000001 for each point in the test dataset
+2023-04-22 17:36:03,789 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.2805534999999999 for each point in the test dataset
+2023-04-22 17:36:03,793 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,804 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.08290819999999988 for each point in the test dataset
+2023-04-22 17:36:03,808 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,820 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5169587400000001 for each point in the test dataset
+2023-04-22 17:36:03,825 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.16516221000000003 for each point in the test dataset
+2023-04-22 17:36:03,833 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.5511481600000001 for each point in the test dataset
+2023-04-22 17:36:03,837 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.27100813999999995 for each point in the test dataset
+2023-04-22 17:36:03,840 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.15589380000000008 for each point in the test dataset
+2023-04-22 17:36:03,843 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.1848999 for each point in the test dataset
+2023-04-22 17:36:03,849 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,852 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.04040275000000004 for each point in the test dataset
+2023-04-22 17:36:03,855 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.6362162 for each point in the test dataset
+2023-04-22 17:36:03,858 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,863 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,868 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.6465938 for each point in the test dataset
+2023-04-22 17:36:03,872 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.22958977000000003 for each point in the test dataset
+2023-04-22 17:36:03,875 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.08080211999999998 for each point in the test dataset
+2023-04-22 17:36:03,882 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.56344322 for each point in the test dataset
+2023-04-22 17:36:03,886 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,889 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.4054705999999999 for each point in the test dataset
+2023-04-22 17:36:03,894 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.7015603000000001 for each point in the test dataset
+2023-04-22 17:36:03,902 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.33404481 for each point in the test dataset
+2023-04-22 17:36:03,906 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,910 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.1225403599999999 for each point in the test dataset
+2023-04-22 17:36:03,918 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.18441818599999998 for each point in the test dataset
+2023-04-22 17:36:03,925 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,932 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.08147280000000001 for each point in the test dataset
+2023-04-22 17:36:03,937 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.7048386 for each point in the test dataset
+2023-04-22 17:36:03,941 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.33819246 for each point in the test dataset
+2023-04-22 17:36:03,947 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.56768995 for each point in the test dataset
+2023-04-22 17:36:03,954 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.465502108 for each point in the test dataset
+2023-04-22 17:36:03,957 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.00036249999999998783 for each point in the test dataset
+2023-04-22 17:36:03,963 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.58546179 for each point in the test dataset
+2023-04-22 17:36:03,968 - INFO - Finding the best classification function This is Function for y9 and the delta y 0.3800880999999998 for each point in the test dataset
+2023-04-22 17:36:03,972 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.238998225 for each point in the test dataset
+2023-04-22 17:36:03,977 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.24312954999999992 for each point in the test dataset
+2023-04-22 17:36:03,984 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.26151241000000003 for each point in the test dataset
+2023-04-22 17:36:03,988 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:03,992 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.20754119999999998 for each point in the test dataset
+2023-04-22 17:36:03,997 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.10369989999999996 for each point in the test dataset
+2023-04-22 17:36:04,003 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.2729762 for each point in the test dataset
+2023-04-22 17:36:04,006 - INFO - Finding the best classification function This is Function for y34 and the delta y 0.08058670000000001 for each point in the test dataset
+2023-04-22 17:36:04,009 - INFO - Finding the best classification function None and the delta y None for each point in the test dataset
+2023-04-22 17:36:04,020 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.40552401 for each point in the test dataset
+2023-04-22 17:36:04,039 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.52756878 for each point in the test dataset
+2023-04-22 17:36:04,049 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.22462020000000005 for each point in the test dataset
+2023-04-22 17:36:04,054 - INFO - Finding the best classification function This is Function for y50 and the delta y 0.1393972 for each point in the test dataset
+2023-04-22 17:36:04,059 - INFO - Finding the best classification function This is Function for y8 and the delta y 0.032876559999999944 for each point in the test dataset
+2023-04-22 17:36:04,059 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:36:10,077 - INFO - Writing the mapping to SQLite to export as a .db file
+2023-04-22 17:38:50,245 - INFO - Converting CSV files to dataset using CoreFunction class
+2023-04-22 17:38:50,281 - INFO - Converting CSV files to SQLite using pandas
+2023-04-22 17:38:50,367 - INFO - Finding the best fitting function
+2023-04-22 17:38:50,384 - INFO - Finding the best fitting function
+2023-04-22 17:38:50,403 - INFO - Finding the best fitting function
+2023-04-22 17:38:50,416 - INFO - Finding the best fitting function
+2023-04-22 17:38:50,435 - INFO - Plotting the ideal functions on the graph and saving to an HTML file
+2023-04-22 17:38:50,832 - INFO - Fetching the test CSV datasets and plotting
+2023-04-22 17:38:51,271 - INFO - Plotting the test data into the Bokeh graph
+2023-04-22 17:38:57,667 - INFO - Writing the mapping to SQLite to export as a .db file

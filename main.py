@@ -17,20 +17,32 @@ This script provides the following functionalities:
 """
 
 class CsvConversionException(Exception):
+    """
+    Exception raised when there is an error converting csv to dataset
+    """
     pass
 
 class IdealFunctionException(Exception):
+    """
+    Exception raised when there is an error finding the ideal function
+    """
     pass
 
 class MappingSQLWriteException(Exception):
+    """
+    Exception raised when there is an error writing the mapping to SQLite
+    """
     pass
 
 def test_suit():
+    """
+    This function runs the test suite to test the calculations_worker module
+    """
     unittest.main(module='test-cases.calculation_worker-test', exit=False)
 
 if __name__ == '__main__':
     #invoke test suite
-    # test_suit()
+    # test_suit() Commented out as it is currently not needed
 
     # Configure logging
     logger = logging.getLogger()

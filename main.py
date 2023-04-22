@@ -2,7 +2,7 @@ import logging
 import math
 import pandas as pd
 import sys
-
+import unittest
 from function_model_worker import CoreFunction
 from mapping_worker import writeToSqlite
 from calculations_worker import minimiseLoss, findClassification, errorSquared
@@ -25,11 +25,17 @@ class IdealFunctionException(Exception):
 class MappingSQLWriteException(Exception):
     pass
 
+def test_suit():
+    unittest.main(module='test-cases.calculation_worker-test', exit=False)
+
 if __name__ == '__main__':
+    #invoke test suite
+    # test_suit()
+
     # Configure logging
     logger = logging.getLogger()
-    #INFO level logs can be enabled, when needed.
-    logger.setLevel(logging.ERROR)
+    #INFO level logs can be enabled, when needed. {INFO}
+    logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     file_handler = logging.FileHandler('output-data/main.log')
     file_handler.setFormatter(formatter)

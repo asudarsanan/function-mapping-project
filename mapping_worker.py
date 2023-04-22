@@ -16,7 +16,7 @@ def writeToSqlite(data):
                     Column('X (test function)', Float, primary_key=False),
                     Column('Y (test function)', Float),
                     Column('Delta Y (test function)', Float),
-                    Column('Number of ideal function', String(50))
+                    Column('Best ideal function', String(50))
                     )
 
     metadata.create_all(dbEngine)
@@ -27,7 +27,7 @@ def writeToSqlite(data):
         yDelta = singleRaw["delta_y"]
 
         if classification is not None:
-            classificationName = classification.name.replace("y", "N")
+            classificationName = classification.name.replace("y", "Y")
         else:
             # If there is no classification, there is also no distance. In that case I write a dash
             classificationName = "-"
@@ -53,7 +53,7 @@ def insert_mapped_test_data(dbEngine, mappingTableSchema, x_test, y_test, delta_
 
     try:
         with dbEngine.connect() as con:
-            con.execute(mappingTableSchema.insert().values({"X (test function)": x_test, "Y (test function)": y_test, "Delta Y (test function)": delta_y,"Number of ideal function": ideal_n_y}))
+            con.execute(mappingTableSchema.insert().values({"X (test function)": x_test, "Y (test function)": y_test, "Delta Y (test function)": delta_y,"Best ideal function": ideal_n_y}))
             con.commit()
     except Exception as e:
         raise DataSaveError(f"Error saving data: {str(e)}")

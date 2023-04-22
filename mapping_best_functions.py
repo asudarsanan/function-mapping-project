@@ -20,27 +20,6 @@ def writeToSqlite(data):
             yDelta = -1
 
             insert_mapped_test_data(point["x"],point["y"],yDelta,classificationName)
-            # query=mappingTableSchema.insert().values({"X (test function)": point["x"], "Y (test function)": point["y"], "Delta Y (test function)": yDelta,"Number of ideal function": classificationName})
-
-    #     # Make sure the column name should be same as table schema, otherwise it will thorw an error
-    # #     tableData.append(
-    # #         {"X (test function)": point["x"], "Y (test function)": point["y"], "Delta Y (test function)": yDelta,
-    # #          "Number of ideal function": classificationName})
-
-    # # # here we are inserting data and executing the query
-    # # query = mappingTableSchema.insert()
-    # # query.execute(tableData)
-        
-
-
-    # try:
-    #     with dbEngine.connect() as con:
-
-    #         print (classificationName)
-    #         con.execute(query)
-    #         return True
-    # except Exception as e:
-    #     raise Exception(f"Error saving data: {str(e)}")
 
 def insert_mapped_test_data(x_test, y_test, delta_y, ideal_n_y):
     

@@ -4,58 +4,60 @@ from calculations_worker import minimiseLoss, findClassification, errorSquared
 from visualisation_worker import plotIdealFunctions, createPlottingPointBasedOnIdealFunction
 import math
 import pandas as pd
-###
-# This feature is developed for below functionality
-# 1. Convert csv data to SQLlite
-# 2. Find ideal function based on data
-# 3. Visualize logical graphs
-# Also, I have added few unit tests based on features.
-###
+
+
+"""
+This script provides the following functionalities:
+1. Convert csv data to SQLite
+2. Find ideal function based on data
+3. Visualize logical graphs
+"""
+
 
 if __name__ == '__main__':
-    # Input Data declaration
-    idealCsvPath = "input-data/ideal.csv"
-    trainCsvPath = "input-data/train.csv"
-    testCsvPath = "input-data/test.csv"
+    # Input data declaration
+    ideal_csv_path = "input-data/ideal.csv"
+    train_csv_path = "input-data/train.csv"
+    test_csv_path = "input-data/test.csv"
 
-    # Core Function accepts the csv path, reads the file and convert to dataset
-    # Later the same class has function to convert to sql which basically converts the uploaded csv file data into sql.
-    idealCsvDataset = CoreFunction(csvPath=idealCsvPath)
-    trainCsvDataset = CoreFunction(csvPath=trainCsvPath)
-    testCsvDataset = CoreFunction(csvPath=testCsvPath)
+    # Read csv files and convert them to dataset using CoreFunction class
+    ideal_csv_dataset = CoreFunction(csvPath=ideal_csv_path)
+    train_csv_dataset = CoreFunction(csvPath=train_csv_path)
+    test_csv_dataset = CoreFunction(csvPath=test_csv_path)
 
-    # convert above 2 files to sql using panda
-    idealCsvDataset.toSql(fileName="ideal", suffix=" (ideal function)")
-    trainCsvDataset.toSql(fileName="training", suffix=" (training function)")
+    # Convert the csv files to SQLite using pandas
+    ideal_csv_dataset.toSql(fileName="ideal", suffix=" (ideal function)")
+    train_csv_dataset.toSql(fileName="training", suffix=" (training function)")
 
-    # Here we compute the ideal functions for the provided data
-    # We are storing all ideal functions in the list
-    idealFunctions = []
-    for trainFunction in trainCsvDataset:
-        # find best fitting function
-        idealFunction = minimiseLoss(trainFunction=trainFunction,
-                                     listOfCandidateFunctions=idealCsvDataset.functions,
-                                     lossFunction=errorSquared)
-        # set the tolerance factor
-        idealFunction.toleranceFactor = math.sqrt(2)
-        # Add the ideal function in the list
-        idealFunctions.append(idealFunction)
+    # Compute the ideal functions for the provided data and store them in a list
+    ideal_functions = []
+    for train_function in train_csv_dataset:
+        # Find the best fitting function
+        ideal_function = minimiseLoss(trainFunction=train_function,
+                                      listOfCandidateFunctions=ideal_csv_dataset.functions,
+                                      lossFunction=errorSquared)
+        # Set the tolerance factor to the square root of 2
+        ideal_function.toleranceFactor = math.sqrt(2)
+        # Add the ideal function to the list of ideal functions
+        ideal_functions.append(ideal_function)
 
-    # Let's plot the ideal function the graph plot and save to the html file
-    plotIdealFunctions(idealFunctions, "ideal-functions-vs-training-data")
+    # Plot the ideal functions on the graph and save to an HTML file
+    plotIdealFunctions(ideal_functions, "ideal-functions-vs-training-data")
 
-    # Let's fetch test CSV datasets and plot
-    testDataSetPoints = testCsvDataset.functions[0]
+    # Fetch the test CSV datasets and plot
+    test_dataset_points = test_csv_dataset.functions[0]
 
-    testDataSetIdealFunctionPoints = []
-    for point in testDataSetPoints:
-        idealFunction, yDelta = findClassification(point=point, idealFunctions=idealFunctions)
-        result = {"point": point, "classification": idealFunction, "delta_y": yDelta}
-        testDataSetIdealFunctionPoints.append(result)
+    test_dataset_ideal_function_points = []
+    for point in test_dataset_points:
+        # Find the best classification function and the delta y for each point in the test dataset
+        ideal_function, y_delta = findClassification(point=point, idealFunctions=ideal_functions)
+        # Create a dictionary containing the point, the classification function and the delta y
+        result = {"point": point, "classification": ideal_function, "delta_y": y_delta}
+        # Add the dictionary to the list of ideal function points
+        test_dataset_ideal_function_points.append(result)
 
-    # let's plot the test data into the bokeh graph
-    createPlottingPointBasedOnIdealFunction(testDataSetIdealFunctionPoints, "test-functions-vs-ideal-functions")
-    # Write the mapping to the sqlite to export as .db file
-    writeToSqlite(testDataSetIdealFunctionPoints)
+    # Plot the test data into the Bokeh graph
+    createPlottingPointBasedOnIdealFunction(test_dataset_ideal_function_points, "test-functions-vs-ideal-functions")
 
-
+    # Write the mapping to SQLite to export as a .db file
+    writeToSqlite(test_dataset_ideal_function_points)

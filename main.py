@@ -22,6 +22,9 @@ class CsvConversionException(Exception):
 class IdealFunctionException(Exception):
     pass
 
+class MappingSQLWriteException(Exception):
+    pass
+
 if __name__ == '__main__':
     # Configure logging
     logger = logging.getLogger()
@@ -102,5 +105,5 @@ if __name__ == '__main__':
 
     except Exception as e:
         logging.error(str(e))
-        raise CustomException("Error occurred while executing the script. Check the log file for details.") from e
+        raise MappingSQLWriteException("Error occurred while executing the script. Check the log file for details.") from e
 

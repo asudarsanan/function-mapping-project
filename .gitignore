@@ -1,0 +1,5 @@
+output-data/*
+output-data/main.log
+input-data/*
+tests\__pycache__
+__pycache__

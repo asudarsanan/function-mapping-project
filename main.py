@@ -31,7 +31,7 @@ if __name__ == '__main__':
     #INFO level logs can be enabled, when needed.
     logger.setLevel(logging.ERROR)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    file_handler = logging.FileHandler('log.txt')
+    file_handler = logging.FileHandler('output-data/main.log')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     stream_handler = logging.StreamHandler(sys.stdout)

@@ -21,13 +21,13 @@ if __name__ == '__main__':
     test_csv_path = "input-data/test.csv"
 
     # Read csv files and convert them to dataset using CoreFunction class
-    ideal_csv_dataset = CoreFunction(csvPath=ideal_csv_path)
-    train_csv_dataset = CoreFunction(csvPath=train_csv_path)
-    test_csv_dataset = CoreFunction(csvPath=test_csv_path)
+    ideal_csv_dataset = CoreFunction(csv_path=ideal_csv_path)
+    train_csv_dataset = CoreFunction(csv_path=train_csv_path)
+    test_csv_dataset = CoreFunction(csv_path=test_csv_path)
 
     # Convert the csv files to SQLite using pandas
-    ideal_csv_dataset.toSql(fileName="ideal", suffix=" (ideal function)")
-    train_csv_dataset.toSql(fileName="training", suffix=" (training function)")
+    ideal_csv_dataset.to_sql(file_name="ideal", suffix=" (ideal function)")
+    train_csv_dataset.to_sql(file_name="training", suffix=" (training function)")
 
     # Compute the ideal functions for the provided data and store them in a list
     ideal_functions = []

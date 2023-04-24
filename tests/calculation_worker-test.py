@@ -1,46 +1,49 @@
 import unittest
-from unittest.mock import MagicMock
 import pandas as pd
+import logging
+
+import sys
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 from calculations_worker import errorSquared
 from function_model_worker import CoreFunction
-from main import minimiseLoss
 
+logging.basicConfig(level=logging.DEBUG)
 
-class UnitTest(unittest.TestCase):
-    """
-    Unit tests for errorSquared function.
-    """
+class MyUnitTest(unittest.TestCase):
     def setUp(self):
-        """
-        Setting up dummy data and CoreFunction instances.
-        """
-        first_data_set = {"x": [5.0, 7.0, 9.0], "y": [10.0, 11.0, 12.0]}
-        second_data_set = {"x": [1.0, 2.0, 3.0], "y": [7.0, 8.0, 9.0]}
+        """Sets up dummy data for testing."""
+        # Generate dummy data
+        data1 = {"x":[1.0,2.0,3.0],"y":[5.0,6.0,7.0]}
+        data2 = {"x":[4.0,5.0,6.0], "y":[8.0,9.0,10.0]}
 
-        self.first_dataframe = pd.DataFrame(data=first_data_set)
-        self.second_dataframe = pd.DataFrame(data=second_data_set)
+        # Create pandas dataframes from the data
+        self.df1 = pd.DataFrame(data=data1)
+        self.df2 = pd.DataFrame(data=data2)
 
-        self.first_function = CoreFunction('')
-        self.first_function.dataframe = self.first_dataframe
-        self.second_function = CoreFunction('')
-        self.second_function.dataframe = self.second_dataframe
+        # Create instances of CoreFunction and assign the dataframes to them
+        self.func1 = CoreFunction('input-data/test.csv')
+        self.func1 = self.df1
+        self.func2 = CoreFunction('input-data/test.csv')
+        self.func2 = self.df2
 
     def tearDown(self):
-        """
-        Clean up after each test.
-        """
+        """Tears down any resources used for testing."""
         pass
 
-    def test_error_squared(self):
-        """
-        Test errorSquared function with different CoreFunction instances.
-        """
-        # Check to see the correct value for the first function
-        self.assertEqual(errorSquared(self.first_function, self.second_function), 15.0)
+    def testSquaredError(self):
+        """Tests the errorSquared function."""
+        # Test to ensure that the function returns the correct value when given two functions
+        self.assertEqual(errorSquared(self.func1, self.func2), 27.0)
 
-        # Check to test the loss function value
-        self.assertEqual(errorSquared(self.second_function, self.first_function), 14.0)
+        # Test to ensure that the function is symmetric when given two functions
+        self.assertEqual(errorSquared(self.func2, self.func1), 27.0)
 
-        # Test to check that regression is zero or not
-        self.assertEqual(errorSquared(self.first_function, self.first_function), 0.0)
+        # Test to ensure that the function returns zero when given the same function twice
+        self.assertEqual(errorSquared(self.func1, self.func1), 0.0)
+
+if __name__ == '__main__':
+    unittest.main()

@@ -44,6 +44,7 @@ if __name__ == '__main__':
     #invoke test suite
     # test_suit() Commented out as it is currently not needed
 
+
     # Configure logging
     logger = logging.getLogger()
     #INFO level logs can be enabled, when needed. {INFO}
